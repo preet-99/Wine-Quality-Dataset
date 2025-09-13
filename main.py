@@ -74,7 +74,7 @@ def train_model():
 
     # Numerical & Categorical attributes
     num_attribs = X_train_features.select_dtypes(include=[np.number]).columns.tolist()
-    cat_attribs = X_train_features.select_dtypes(include=[np.number]).columns.tolist()
+    cat_attribs = X_train_features.select_dtypes(include=['object', 'category']).columns.tolist()
 
     # Build pipeline
     pipeline = build_pipeline(num_attribs, cat_attribs)
