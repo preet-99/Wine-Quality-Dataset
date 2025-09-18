@@ -38,7 +38,7 @@ A machine learning pipeline to predict wine quality using the Wine Quality datas
 
 ## 🛠️ Installation
 ```bash
- git clone https://github.com/your-username/wine-quality-prediction.git
+ git clone https://github.com/preet-99/Wine-Quality-Dataset.git
 cd wine-quality-prediction
 pip install -r requirements.txt
 
